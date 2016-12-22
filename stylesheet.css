@@ -6,17 +6,62 @@ Use CSS to add the following to your site.
 #slogan {
 	border-style: hidden;
 	padding: 25px;
-}
+	}
 /*
 2. Margin added to at least one element*/
 #comparing_costs{
 	margin: 50px;
-}
+	}
 /*
-3. At least one centered element (a footer message can be nice for this)
-4. A background image on at least one element
-5. A different font on at least one element
-6. A few elements styled using a class
+3. At least one centered element (a footer message can be nice for this)*/
+/*
+5. A different font on at least one element*/
+#footer {
+	text-align: center;
+	font-family: impact;
+	}
+/*
+4. A background image on at least one element*/
+
+#eat_save_love {
+	background-image: url(https://www.transparenttextures.com/patterns/asfalt-dark.png);
+	color: #E1A009;
+	text-shadow: 2px 2px #EAE301;
+	font-family: "century gothic";
+	}
+/*
+6. A few elements styled using a class*/
+.text{
+	font-family: verdana; 
+	font-size:;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 7. A different color for visited links
 8. An element styled with an ID*/
 
