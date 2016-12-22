@@ -1,0 +1,84 @@
+/*Release no. 1
+Use CSS to add the following to your site.
+
+1. Padding and border added to at least one element
+*/
+#slogan {
+	border-style: hidden;
+	padding: 25px;
+	}
+/*
+2. Margin added to at least one element*/
+#comparing_costs{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+/*
+3. At least one centered element (a footer message can be nice for this)*/
+/*
+5. A different font on at least one element*/
+#footer {
+	text-align: center;
+	font-family: impact;
+	}
+/*
+4. A background image on at least one element*/
+
+#eat_save_love {
+	background-image: url(https://www.transparenttextures.com/patterns/asfalt-dark.png);
+	color: #E1A009;
+	text-shadow: 2px 2px #EAE301;
+	font-family: "century gothic";
+	}
+/*
+6. A few elements styled using a class*/
+.text{
+	font-family: verdana; 
+	font-size:;
+	}
+/*
+7. A different color for visited links*/
+
+a:visited {
+	color: pink;
+	}
+a:link {
+	color: green;
+	}
+/*
+8. An element styled with an ID*/
+#price {
+	font-size: 80px;
+	float: left;
+}
+/*Release no. 2
+Add at least one media query to improve the responsiveness of your page.*/
+@media only screen and (max-width: 500px) {
+    #price {
+        font-size: 45px;
+    }
+}
+.image {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
