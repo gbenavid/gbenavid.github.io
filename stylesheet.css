@@ -40,45 +40,14 @@ Use CSS to add the following to your site.
 
 a:visited {
 	color: pink;
-}
+	}
 a:link {
 	color: green;
-}
-
-/*.link {
-	a: visited;
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	}
 /*
 8. An element styled with an ID*/
-
+#price {
+	font-size: 80px;
+}
 /*Release no. 2
 Add at least one media query to improve the responsiveness of your page.*/
