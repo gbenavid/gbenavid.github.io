@@ -10,7 +10,8 @@ Use CSS to add the following to your site.
 /*
 2. Margin added to at least one element*/
 #comparing_costs{
-	margin: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	}
 /*
 3. At least one centered element (a footer message can be nice for this)*/
@@ -48,6 +49,36 @@ a:link {
 8. An element styled with an ID*/
 #price {
 	font-size: 80px;
+	float: left;
 }
 /*Release no. 2
 Add at least one media query to improve the responsiveness of your page.*/
+@media only screen and (max-width: 500px) {
+    #price {
+        font-size: 45px;
+    }
+}
+.image {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
