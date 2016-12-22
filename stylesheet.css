@@ -35,6 +35,22 @@ Use CSS to add the following to your site.
 	font-family: verdana; 
 	font-size:;
 	}
+/*
+7. A different color for visited links*/
+
+a:visited {
+	color: pink;
+}
+a:link {
+	color: green;
+}
+
+/*.link {
+	a: visited;
+}
+*/
+
+
 
 
 
@@ -62,7 +78,6 @@ Use CSS to add the following to your site.
 
 
 /*
-7. A different color for visited links
 8. An element styled with an ID*/
 
 /*Release no. 2
