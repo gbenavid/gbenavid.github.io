@@ -32,9 +32,8 @@ Use CSS to add the following to your site.
 	}
 /*
 6. A few elements styled using a class*/
-.text{
+.text {
 	font-family: verdana; 
-	font-size:;
 	}
 /*
 7. A different color for visited links*/
@@ -62,23 +61,3 @@ Add at least one media query to improve the responsiveness of your page.*/
 	width: 100%;
 	height: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
