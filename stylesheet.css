@@ -7,16 +7,12 @@ Use CSS to add the following to your site.
 	border-style: hidden;
 	padding: 25px;
 }
-
-
-
-
-
-
-
-
 /*
-2. Margin added to at least one element
+2. Margin added to at least one element*/
+#comparing_costs{
+	margin: 50px;
+}
+/*
 3. At least one centered element (a footer message can be nice for this)
 4. A background image on at least one element
 5. A different font on at least one element
