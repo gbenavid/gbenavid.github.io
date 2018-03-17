@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/vtw1nmf.css");
+
 .header {
   width: 100%;
   text-align: center;
@@ -18,7 +20,7 @@
 }
 
 .nav-link-header {
-  font-family: droid-sans-mono, fira-mono, Georgia, monospace;
+  font-family: "droid-sans-mono", "fira-mono", Georgia, monospace;
   text-decoration: none;
   float: left;
   width: 33.33%;
