@@ -1,0 +1,11 @@
+.header {
+  /* border: 1px solid black; */
+  width: 100%;
+  text-align: center;
+}
+
+.initials {
+  padding-top: 72px;
+  max-height: 188px;
+  display: inline-block;
+}
