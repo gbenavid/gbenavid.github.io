@@ -8,3 +8,18 @@
   max-height: 188px;
   display: inline-block;
 }
+
+.tab-interface {
+  height: 50px;
+  margin: 0 auto;
+  width: 60%;
+  max-width: 437px;
+  padding-top: 20px;
+}
+
+.nav-link-header {
+  text-decoration: none;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
