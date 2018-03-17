@@ -14,12 +14,15 @@
   margin: 0 auto;
   width: 60%;
   max-width: 437px;
-  padding-top: 20px;
+  padding-top: 24px;
 }
 
 .nav-link-header {
+  font-family: droid-sans-mono, fira-mono, Georgia, monospace;
   text-decoration: none;
   float: left;
-  width: 25%;
+  width: 33.33%;
   text-align: center;
+  font-weight: 400;
+  letter-spacing: 0em;
 }
