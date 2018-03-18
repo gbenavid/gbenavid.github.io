@@ -1,5 +1,9 @@
 @import url("https://use.typekit.net/vtw1nmf.css");
 
+a {
+  color: #1c2018;
+}
+
 .header {
   width: 100%;
   text-align: center;
@@ -27,4 +31,16 @@
   text-align: center;
   font-weight: 400;
   letter-spacing: 0em;
+}
+
+.sonny-container {
+  width: 100%;
+  text-align: center;
+}
+
+.little-rae {
+  max-height: 449px;
+  max-width: none;
+  display: inline-block;
+  transform: rotate(90deg);
 }

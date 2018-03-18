@@ -10,7 +10,7 @@ function callPage(page){
   $.ajax({
     url: page,
     type: "GET",
-    dataType: "text",
+    dataType: "html",
     success: function(response){
       $(".content").html(response);
     },
