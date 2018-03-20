@@ -25,7 +25,7 @@ a {
 }
 
 .nav-link-header {
-  font-family: "droid-sans-mono", "fira-mono", Georgia, monospace;
+  font-family: "droid-sans-mono", monospace;
   text-decoration: none;
   float: left;
   width: 33.33%;
@@ -48,7 +48,7 @@ a {
 
 .main-page-text 
   .title {
-    font-family: "droid-sans-mono";
+    font-family: "droid-sans-mono", monospace;
     text-align: center;
     font-size: 19px;
     line-height: 2.5em;
@@ -66,7 +66,8 @@ a {
   max-width: 600px;
   display: block;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+  font-family: "droid-sans-mono", monospace;
 }
 
 .main-page-img-containers {
@@ -99,4 +100,65 @@ a {
     width: 400px;
     height: 400px;
   }
+}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.line-break {
+  border-top: 2px solid grey;
+  width: 74%;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.footer-header-text {
+  padding-top: 80px;
+  font-size: 30px;
+  line-height: 1.2em;
+  color: #272727;
+  font-family: "droid-sans-mono", monospace;
+}
+
+.footer-text {
+  max-width: 500px;
+  word-wrap: break-word;
+  font-size: 13.5px;
+  font-family: "droid-sans-mono", monospace;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.social-links {
+  margin-top: 150px;
+}
+
+.social-icon {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+#github {
+  max-width: 36px;
+  max-height: 34px;
+  width: auto;
+  height: auto;
+}
+
+#yelp {
+  max-width: 35px;
+  max-height: 34px;
+  width: auto;
+  height: auto;
+  background: #000;
+  border-radius: 2px;
+}
+
+#linkedin {
+  max-width: 43px;
+  max-height: 34px;
+  width: auto;
+  height: auto;
 }
