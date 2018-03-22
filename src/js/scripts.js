@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("a").on("click", function(e){
+   $("a.nav-link-header").on("click", function(e){
     e.preventDefault();
     var pageRef = $(this).attr('href');
     callPage(pageRef);
