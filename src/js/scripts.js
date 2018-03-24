@@ -4,6 +4,19 @@ $(document).ready(function(){
     var pageRef = $(this).attr('href');
     callPage(pageRef);
   });
+
+  $(window).resize(function() {
+    if ($(window).width() < 600)
+      $(".circle-pic-wrapper").addClass("clickable-on-mobile");
+    else
+      $(".circle-pic-wrapper").removeClass("clickable-on-mobile");
+  });
+
+  $(document).on("click", ".clickable-on-mobile", function(e) {
+    e.preventDefault();
+    let src = $(this)[0].children[0].alt;
+    getRefForCircleImg(src);
+  });
 });
 
 function callPage(page){
@@ -19,3 +32,12 @@ function callPage(page){
     }
   });
 };
+
+function getRefForCircleImg(alt) {
+  if (alt === "trans-american-building")
+    return callPage("./src/pages/projects.html");
+  if (alt === "diamond-head")
+    return callPage("./src/pages/updates.html");
+  if (alt === "HI")
+    return callPage("./src/pages/notes.html");
+}
