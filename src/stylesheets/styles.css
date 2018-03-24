@@ -99,7 +99,6 @@ a {
   -webkit-filter: grayscale(50%);
   filter: grayscale(50%);
   -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
 }
 
 /* only on small screens */
