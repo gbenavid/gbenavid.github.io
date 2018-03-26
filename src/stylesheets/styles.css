@@ -123,6 +123,10 @@ a {
     width: 250px;
     height: 250px;
   }
+  .circle-pic.trans-america-building.active {
+    /* show me the details */
+    width: 25px;
+  }
   .circle-pic-wrapper {
     display: inherit;
     padding: 8px;
