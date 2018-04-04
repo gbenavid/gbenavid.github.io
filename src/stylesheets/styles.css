@@ -11,7 +11,7 @@ a {
 
 .initials {
   padding-top: 72px;
-  max-height: 188px;
+  max-height: 154px;
   display: inline-block;
 }
 
@@ -122,6 +122,10 @@ a {
   .circle-pic {
     width: 250px;
     height: 250px;
+  }
+  .circle-pic.active {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
   }
   .circle-pic-wrapper {
     display: inherit;
