@@ -22,7 +22,10 @@ $(document).ready(function(){
 
 function callPage(page, classNames=false){
   $(".circle-pic").removeClass("active");
-  let selector = "." + classNames.split(" ")[0] + "." + classNames.split(" ")[1];
+  let selector;
+  if (classNames)
+    selector = "." + classNames.split(" ")[0] + "." + classNames.split(" ")[1];
+
   $.ajax({
     url: page,
     type: "GET",
