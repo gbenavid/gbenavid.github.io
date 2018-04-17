@@ -1,5 +1,29 @@
 @import url("https://use.typekit.net/vtw1nmf.css");
 
+.front {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  filter: grayscale(50%);
+  backface-visibility: hidden;
+  transform: rotate(90deg) perspective(600px) rotateY(0deg);
+  transition: all 1s linear;
+}
+.back {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  filter: grayscale(50%);
+  backface-visibility: hidden;
+  transform: rotate(90deg) perspective(600px) rotateY(180deg);
+  transition: all 1s linear;
+}
+.circle-pic-wrapper:hover .back {
+  transform: rotate(90deg) perspective(600px) rotateY(0deg);
+}
+.circle-pic-wrapper:hover .front {
+  transform: rotate(90deg) perspective(600px) rotateY(-180deg);
+}
 a {
   color: #1c2018;
 }
@@ -19,10 +43,6 @@ a {
   .wide-img-landing-pg {
     width: 95%;
     height: auto;
-  }
-  #circle-pic {
-    width: 80px;
-    height: 80px;
   }
 }
 
