@@ -29,10 +29,6 @@ a {
   font-weight: 400;
   letter-spacing: 0em;
 }
-/* .wide-img-landing-pg-container {
-  width: 100%;
-  text-align: center;
-} */
 .wide-img-landing-pg-container {
   max-height: 423px;
   max-width: none;
@@ -42,7 +38,6 @@ a {
 .jquery-landing-page-navigation-container {
   height: 500px;
   width: 809.562px;
-  background: pink;
 }
 .jquery-landing-page-navigation-content-text {
   padding: 37px;
