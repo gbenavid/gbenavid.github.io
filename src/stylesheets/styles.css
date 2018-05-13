@@ -136,7 +136,7 @@ a {
   height: auto;
 }
 @media only screen and (max-width:870px) {
-  .wide-img-landing-pg {
+  .wide-img-landing-pg-container {
     width: 95%;
     height: auto;
   }
@@ -147,6 +147,9 @@ a {
 }
 /* medium screens */
 @media only screen and (max-width:600px) {
+  .initials {
+    max-height: 150px;
+  }
   .navigation-tabs {
     display: none;
   }
